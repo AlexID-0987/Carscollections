@@ -1,0 +1,16 @@
+<div *ngIf="car">
+    <h2>{{car.title}} info</h2>
+    <div>
+        <div>
+            <label for="title">Title: </label>
+            <input id="title" [(ngModel)]="car.title" placeholder="title">
+        </div>
+        <div>
+            <label for="model">Title: </label>
+            <input id="model" [(ngModel)]="car.model" placeholder="model">
+        </div>
+    </div>
+</div>
+
+<button class="btn btn-primary"
+        (click)="goBack()">Back</button>

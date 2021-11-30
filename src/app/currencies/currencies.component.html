@@ -1,0 +1,18 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>CCY</th>
+            <th>BASE_CCY</th>
+            <th>BUY</th>
+            <th>SALE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let currency of currencies">
+            <td>{{currency.ccy}}</td>
+            <td>{{currency.base_ccy}}</td>
+            <td>{{currency.buy}}</td>
+            <td>{{currency.sale}}</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,11 @@
+.but{
+  display: flex;
+  margin-left: 2em;
+
+}
+.btn{
+  margin-right: 2em;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  
+}

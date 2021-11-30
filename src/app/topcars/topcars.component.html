@@ -1,0 +1,8 @@
+<h2>Top cars</h2>
+<div>
+    <a class="list-group-item"
+       routerLink="/info/{{car.id}}"
+       *ngFor="let car of cars">{{car.title}}</a>
+</div>
+
+
